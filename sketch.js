@@ -69,7 +69,7 @@ function setup() {
 
   
   trex.setCollider("rectangle",0,0,trex.width-5,trex.height-5);
-
+  trex.debug = true;
   
   score = 0;
   
