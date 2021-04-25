@@ -147,7 +147,7 @@ function draw() {
   //stop trex from falling down
   trex.collide(invisibleGround);
   
-  if(mousePressedOver(restart)) {
+  if((mousePressedOver || touches(restart))) {
       reset();
     }
 
